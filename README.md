@@ -21,7 +21,7 @@ Train the model
 --nproc_per_node=1 
 tools/train_net.py 
 --master_port=$((RANDOM + 10000)) 
---config-file configs/AFGN/vid_R_101_C4_AFGN_1x.yaml 
+--config-file configs/AFGN/vid_Res_101_C4_AFGN_1x.yaml 
 OUTPUT_DIR training_dir/AFGN`
 
 Test the model
@@ -30,7 +30,7 @@ Then run
 `python -m torch.distributed.launch
 --nproc_per_node=1
 tools/test_net.py 
---config-file configs/AFGN/vid_R_101_C4_AFGN_1x.yaml
+--config-file configs/AFGN/vid_Res_101_C4_AFGN_1x.yaml
 MODEL.WEIGHT AFGN_R_101.pth `
 
 # Acknowledgement
