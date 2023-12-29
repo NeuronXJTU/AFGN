@@ -13,6 +13,19 @@ OpenCV
 scipy
 ......
 
+#Inference Speed
+Backbone: Resnet-101
+| No. of GPUs      | mAP | FPS     |
+| :---        |    :----:   |          ---: |
+| 1      | 82.45%       | 3.51   |
+| 4   | 82.45%        | 9.21      |
+
+Backbone: Resnet-50
+| No. of GPUs      | mAP | FPS     |
+| :---        |    :----:   |          ---: |
+| 1      | 81.28%       | 4.46   |
+| 4   | 81.28%        | 14.10      |
+
 # Usage
 
 Train the model
