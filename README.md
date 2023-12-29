@@ -13,7 +13,8 @@ OpenCV
 scipy
 ......
 
-#Inference Speed
+# Inference Speed
+
 Backbone: Resnet-101
 | No. of GPUs      | mAP | FPS     |
 | :---        |    :----:   |          ---: |
